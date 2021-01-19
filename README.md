@@ -1,8 +1,7 @@
-Simple theme I made a very long time ago when I was still relying on Notepad++
-for most of my editing. While VSCodium is my editor of choice, Notepad++
-still remains for quick reading and editing purposes.
+Despite using VSCodium as my default code editor, sometimes I still use
+Notepad++ for quick edits. Recently updated to support D.
 
-Recently updated to support D.
+![screenshot](screenshot.png)
 
 Typically installed in `%APPDATA%\Notepad++\themes`.
 
@@ -13,5 +12,6 @@ Tested for:
 - c++
 - css
 - d
+- diff
 - html
 - ini
