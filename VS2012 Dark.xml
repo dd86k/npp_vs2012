@@ -353,6 +353,14 @@
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="498B3D" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="498B3D" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="json" desc="JSON" ext="">
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="569CD6" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="CC9393" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="CEDF99" bgColor="3F3F3F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="DFC47D" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <!--
             <WordsStyle name="" styleID="0" fgColor="FFFFFF" bgColor="000040" fontName="" fontStyle="0" fontSize="" />
@@ -714,7 +722,7 @@
             <WordsStyle name="ERROR" styleID="8" fgColor="FF0000" bgColor="000040" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
-            <WordsStyle name="SELECTED LINE" styleID="6" fgColor="FFFF80" bgColor="000040" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SELECTED LINE" styleID="6" fgColor="FFFF80" bgColor="1E1E1E" fontName="" fontStyle="4" fontSize="" />
             <WordsStyle name="HEARDER" styleID="1" fgColor="008000" bgColor="000040" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="FFFFFF" bgColor="000040" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="HIT WORD" styleID="3" fgColor="80FF80" bgColor="000040" fontName="" fontStyle="4" fontSize="" />
@@ -730,7 +738,7 @@
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="0E3A6C" fontName="Consolas" fontStyle="0" fontSize="" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FFFFFF" bgColor="FF8080" fontName="Consolas" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="0F0F0F" fontStyle="0" fgColor="FFFFFF" fontSize="" />
-        <WidgetStyle name="Mark colour" styleID="0" fgColor="FFFF80" bgColor="000040" fontStyle="0" />
+        <WidgetStyle name="Mark colour" styleID="0" fgColor="FFFF80" bgColor="FF0000" fontStyle="0" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="7D9CEC" fgColor="000000" fontStyle="0" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="FFFFFF" fontStyle="0" bgColor="112435" fontSize="" />
         <WidgetStyle name="Find Mark Style" styleID="31" fgColor="FFFF00" bgColor="000040" fontName="Consolas" fontStyle="0" fontSize="" />
