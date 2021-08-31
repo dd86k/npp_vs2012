@@ -15,3 +15,5 @@ Tested for:
 - diff
 - html
 - ini
+- json
+- yaml
